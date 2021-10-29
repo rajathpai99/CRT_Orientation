@@ -6,6 +6,6 @@ Resource                     ../resources/locators.robot
 *** Test Cases ***
     [Documentation]          Open a browser and open the link
     [Tags]                   BrowserOpen
-    BrowserOpen              about:blank    chrome
+    OpenBrowser              about:blank    chrome
     GoTo                     http://automationpractice.com/
     CloseAllBrowsers
