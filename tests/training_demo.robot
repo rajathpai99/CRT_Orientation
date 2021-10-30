@@ -20,5 +20,21 @@ Sign In
     TypeSecret               Password         ${PASSWORD}
     ClickText                Sign in          Forgot your password?
 
-Test for Appstate
+Add product to shopping cart and cancel
+    [Documentation]          User should add a product to shopping cart and cancel it
+    [Tags]                   Shopping Cart  
     Appstate                 Sign In
+    ClickText                DRESSES
+    ClickText                Printed Dress
+    ClickElement             //*[@class\="icon-plus"]
+    DropDown                 Size             M
+    ClickText                Add to cart
+    VerifyText               Product successfully added to your shopping cart
+    VerifyText               There are 2 items in your cart.
+    ClickText                Proceed to checkout
+    VerifyText               Size : M
+    ClickItem                Delete
+    VerifyText               Your shopping cart is empty.
+    ClickItem                Return to Home
+    VerifyNoItem             Return to Home
+    ClickText                Sign out
