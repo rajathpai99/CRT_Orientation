@@ -19,3 +19,6 @@ Sign In
     TypeText                 Email address    training.qentinel@gmail.com    Password
     TypeSecret               Password         ${PASSWORD}
     ClickText                Sign in          Forgot your password?
+
+Test for Appstate
+    Appstate                 Sign In
