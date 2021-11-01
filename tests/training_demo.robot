@@ -46,4 +46,8 @@ Navigate to the Sign in page and create an account
     ClickText                Sign in
     TypeText                 Email address    rptest@gmail.com               Please enter your email address to create an account.
     ClickText                Create an account
+    ClickElement             //*[@id\="id_gender1"]
+    TypeText                 First name       rpai                           Mr.
+    TypeText                 Last name        test                           Email
+    TypeText                 Password         secret
 
