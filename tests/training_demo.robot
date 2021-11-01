@@ -38,3 +38,12 @@ Add product to shopping cart and cancel
     ClickItem                Return to Home
     VerifyNoItem             Return to Home
     ClickText                Sign out
+
+Navigate to the Sign in page and create an account
+    [Documentation]          Navigate to sign in page, create an account, don't register, and go back to home page
+    [Tags]                   Create an account
+    Appstate                 HomePage
+    ClickText                Sign in
+    TypeText                 Email address    rptest@gmail.com               Please enter your email address to create an account.
+    ClickText                Create an account
+
