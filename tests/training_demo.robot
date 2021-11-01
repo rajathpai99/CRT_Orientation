@@ -16,9 +16,9 @@ Sign In
     [Tags]                   BrowserOpen
     GoTo                     ${URL}
     ClickText                Sign in
-    TypeText                 Email address    training.qentinel@gmail.com    Password
-    TypeSecret               Password         ${PASSWORD}
-    ClickText                Sign in          Forgot your password?
+    TypeText                 Email address                                    training.qentinel@gmail.com    Password
+    TypeSecret               Password                                         ${PASSWORD}
+    ClickText                Sign in                                          Forgot your password?
 
 Add product to shopping cart and cancel
     [Documentation]          User should add a product to shopping cart and cancel it
@@ -27,7 +27,7 @@ Add product to shopping cart and cancel
     ClickText                DRESSES
     ClickText                Printed Dress
     ClickElement             ${icon_plus}
-    DropDown                 Size             M
+    DropDown                 Size                                            M
     ClickText                Add to cart
     VerifyText               Product successfully added to your shopping cart
     VerifyText               There are 2 items in your cart.
@@ -44,28 +44,28 @@ Navigate to the Sign in page and create an account
     [Tags]                   Create an account
     Appstate                 HomePage
     ClickText                Sign in
-    TypeText                 Email address    rptest@gmail.com               Please enter your email address to create an account.
+    TypeText                 Email address                                   rptest@gmail.com               Please enter your email address to create an account.
     ClickText                Create an account
     ClickElement             //*[@id\="id_gender1"]
-    TypeText                 First name       rpai                           Mr.
-    TypeText                 Last name        test
-    TypeText                 Password         secret
-    DropDown                 Date of Birth    9
-    DropDown                 //*[@id\="months"]    5 
-    DropDown                 //*[@id\="years"]     1996
+    TypeText                 First name                                      rpai                           Mr.
+    TypeText                 Last name                                       test
+    TypeText                 Password                                        secret
+    DropDown                 Date of Birth                                   9
+    DropDown                 //*[@id\="months"]                              5 
+    DropDown                 //*[@id\="years"]                               1996
     ClickCheckbox            Sign up for our newsletter!                     on
     ClickCheckbox            Receive special offers from our partners!       off
-    TypeText                 Company                        Copado
-    TypeText                 Address                        Street 1
-    TypeText                 Address (Line 2)               Main 2
-    TypeText                 City                        Udupi
-    DropDown                 State                       Texas
-    TypeText                 Zip/Postal Code             donno
-    DropDown                 Country                     United States
-    TypeText                 Additional information      None
-    TypeText                 Home phone                  12345
-    TypeText                 Mobile phone                67890
-    TypeText                 Assign an address alias     street2 Main2
+    TypeText                 Company                                         Copado
+    TypeText                 Address                                         Street 1
+    TypeText                 Address (Line 2)                                Main 2
+    TypeText                 City                                            Udupi
+    DropDown                 State                                           Texas
+    TypeText                 Zip/Postal Code                                 donno
+    DropDown                 Country                                         United States
+    TypeText                 Additional information                          None
+    TypeText                 Home phone                                      12345
+    TypeText                 Mobile phone                                    67890
+    TypeText                 Assign an address alias                         street2 Main2
     ClickItem                Return to Home
     VerifyNoItem             Return to Home
 
