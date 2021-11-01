@@ -48,6 +48,26 @@ Navigate to the Sign in page and create an account
     ClickText                Create an account
     ClickElement             //*[@id\="id_gender1"]
     TypeText                 First name       rpai                           Mr.
-    TypeText                 Last name        test                           Email
+    TypeText                 Last name        test
     TypeText                 Password         secret
+    DropDown                 Date of Birth    9
+    DropDown                 //*[@id\="months"]    5 
+    DropDown                 //*[@id\="years"]     1996
+    ClickCheckbox            Sign up for our newsletter!                     on
+    ClickCheckbox            Receive special offers from our partners!       off
+    TypeText                 Company                        Copado
+    TypeText                 Address                        Street 1
+    TypeText                 Address (Line 2)               Main 2
+    TypeText                 City                        Udupi
+    DropDown                 State                       Texas
+    TypeText                 Zip/Postal Code             donno
+    DropDown                 Country                     United States
+    TypeText                 Additional information      None
+    TypeText                 Home phone                  12345
+    TypeText                 Mobile phone                67890
+    TypeText                 Assign an address alias     street2 Main2
+    ClickItem                Return to Home
+    VerifyNoItem             Return to Home
+
+
 
