@@ -30,7 +30,7 @@ Add product to shopping cart and cancel
     ClickElement             ${icon_plus}
     DropDown                 Size                                            M
     ClickText                Add to cart
-    VerifyText               Product123 successfully added to your shopping cart
+    VerifyText               Product successfully added to your shopping cart
     VerifyText               There are 2 items in your cart.
     ClickText                Proceed to checkout
     VerifyText               Size : M
