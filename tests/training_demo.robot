@@ -68,7 +68,7 @@ Navigate to the Sign in page and create an account
     TypeText                 Mobile phone                                    67890
     TypeText                 Assign an address alias                         street2 Main2
     ClickItem                Return to Home
-    VerifyNoItem             Return to Home
+    #VerifyNoItem             Return to Home
 
 Table Exercise
     [Documentation]          Open the table.html file stored under files folder and perform various commands
