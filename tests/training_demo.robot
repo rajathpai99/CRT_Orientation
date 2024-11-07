@@ -93,6 +93,6 @@ Table Exercise
     #6 -Verify that the first name on second row is "Jane"
     VerifyTable              r2c2                                            Jane
 
-    #7 - Click "Copy email" button in row that contains word "John"
+    #7 - Click "Copy email" button in row that contains word "John" 08Nov Update
     ClickCell                r?John/c4                                       tag=button   
 
